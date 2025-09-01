@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recover Your Password</h1>
+        
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Recover</button>
+        <div class="moving">Please Enter Your Email Address Below</div>
+    
+    </div>
+    <script src="script.js"></script>
+<style>
+body{
+    background-image:url('246.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    top: -50px;
+
+        
+    }
+    .container{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        color: white;
+        justify-content: center;
+        justify-items: center;
+        
+        align-items: center;
+        margin-top: 150px;
+        
+    }
+    h1{
+        color: rgb(154, 176, 30);
+        
+    }
+    input{
+        padding: 10px;
+        width: 100%;
+        border-radius: 16px;
+        border: none;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        outline: none;
+        
+        
+    }
+    button{
+        width: 70%;
+        background-image: linear-gradient(to right, #0b36039b, #02210b); 
+        color:greenyellow;
+        border-radius: 12px;
+        display:flex;
+        flex-direction:column;
+        margin: 15px;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 0 0 10px;
+        
+    }
+    
+    .moving{
+        position: relative;
+        animation: slide 20s linear infinite;
+        white-space:nowrap;
+        font-size: medium;
+        font-family: cursive;
+        color: #5fe70b9b; 
+        
+
+    }
+    @keyframes slide{
+        0%{left:100%;}
+        20%{left: 100%;}
+
+        80%{left: -100%;}
+        100%{left: -300%;}
+
+        }
+
+</style>
+
+</body>
+</html>
